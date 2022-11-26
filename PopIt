@@ -1,0 +1,98 @@
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
+local Window  = Library.CreateLib("Script Made By Phobia", "Serpent")
+local Tab     = Window:NewTab("Item Buyer")
+local Section = Tab:NewSection("Item Buyer")
+Section:NewButton("Buy Dart", "Buys a Dart", function()
+    local args = {
+        [1] = "Dart"
+    }
+
+    game:GetService("ReplicatedStorage").RemoteEvents.BuyItemCash:FireServer(unpack(args))
+end)
+Section:NewButton("Buy Demogorgan", "Buys a Demogorgan", function()
+    local args = {
+        [1] = "Demogorgan"
+    }
+
+    game:GetService("ReplicatedStorage").RemoteEvents.BuyItemCash:FireServer(unpack(args))
+end)
+Section:NewButton("Buy Demogorgan Kawaii", "Buys a Demogorgan Kawaii", function()
+    local args = {
+        [1] = "Demogorgan Kawaii"
+    }
+
+    game:GetService("ReplicatedStorage").RemoteEvents.BuyItemCash:FireServer(unpack(args))
+end)
+Section:NewButton("Buy Rush", "Buys a Rush", function()
+    local args = {
+        [1] = "Rush"
+    }
+
+    game:GetService("ReplicatedStorage").RemoteEvents.BuyItemCash:FireServer(unpack(args))
+end)
+Section:NewButton("Buy Retro Bike", "Buys a Retro Bike", function()
+    local args = {
+        [1] = "Retro Bike"
+    }
+
+    game:GetService("ReplicatedStorage").RemoteEvents.BuyItemCash:FireServer(unpack(args))
+end)
+Section:NewButton("Buy F", "Buys a F", function()
+    local args = {
+        [1] = "F"
+    }
+
+    game:GetService("ReplicatedStorage").RemoteEvents.BuyItemCash:FireServer(unpack(args))
+end)
+Section:NewButton("Buy Box Toy Harambe", "Buys a Box Toy Harambe", function()
+    local args = {
+        [1] = "Box Toy Harambe"
+    }
+
+    game:GetService("ReplicatedStorage").RemoteEvents.BuyItemCash:FireServer(unpack(args))
+end)
+Section:NewButton("Buy Spidy", "Buys a Spidy", function()
+    local args = {
+        [1] = "Spidy"
+    }
+
+    game:GetService("ReplicatedStorage").RemoteEvents.BuyItemCash:FireServer(unpack(args))
+end)
+Section:NewButton("Buy Long Horse", "Buys a Long Horse", function()
+    local args = {
+        [1] = "Long Horse"
+    }
+
+    game:GetService("ReplicatedStorage").RemoteEvents.BuyItemCash:FireServer(unpack(args))
+end)
+Section:NewButton("Buy Smoke", "Buys a Smoke", function()
+    local args = {
+        [1] = "Smoke"
+    }
+
+    game:GetService("ReplicatedStorage").RemoteEvents.BuyItemCash:FireServer(unpack(args))
+end)
+Section:NewButton("Buy Flamethrower", "Buys a Flamethrower", function()
+    local args = {
+        [1] = "Flamethrower"
+    }
+
+    game:GetService("ReplicatedStorage").RemoteEvents.BuyItemCash:FireServer(unpack(args))
+end)
+Section:NewButton("Buy Angel Eye", "Buys a Angel Eye", function()
+    local args = {
+        [1] = "Angel Eye"
+    }
+
+    game:GetService("ReplicatedStorage").RemoteEvents.BuyItemCash:FireServer(unpack(args))
+end)
+local Tab     = Window:NewTab("Scripts")
+local Section = Tab:NewSection("Scripts")
+Section:NewButton("Fake Drop GUI", "Fake Drops an Item That Your Holding", function()
+loadstring(game:HttpGet(('https://gist.githubusercontent.com/domdaobfuscater/fe930f03b884af58e3cdf5c9a078bfc2/raw/0f4b866d5054ed96604cec95091bca607525d4f5/gistfile1.txt')))()
+end)
+Section:NewButton("Infinite Yeild", "Spawns in Infinite Yeild", function()
+loadstring(game:HttpGet(('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'),true))()
+end)
+local Tab     = Window:NewTab("Creator")
+local Section = Tab:NewSection("Made By Phobia")
